@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mood-task/static/css/main.7434fcbe.chunk.css",
+    "main.css": "/mood-task/static/css/main.e3cf8fa3.chunk.css",
     "main.js": "/mood-task/static/js/main.bbdf1e9d.chunk.js",
     "main.js.map": "/mood-task/static/js/main.bbdf1e9d.chunk.js.map",
     "runtime-main.js": "/mood-task/static/js/runtime-main.b9715dc0.js",
@@ -10,13 +10,13 @@
     "static/js/3.be9b8bce.chunk.js": "/mood-task/static/js/3.be9b8bce.chunk.js",
     "static/js/3.be9b8bce.chunk.js.map": "/mood-task/static/js/3.be9b8bce.chunk.js.map",
     "index.html": "/mood-task/index.html",
-    "static/css/main.7434fcbe.chunk.css.map": "/mood-task/static/css/main.7434fcbe.chunk.css.map",
+    "static/css/main.e3cf8fa3.chunk.css.map": "/mood-task/static/css/main.e3cf8fa3.chunk.css.map",
     "static/js/2.0def6305.chunk.js.LICENSE.txt": "/mood-task/static/js/2.0def6305.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b9715dc0.js",
     "static/js/2.0def6305.chunk.js",
-    "static/css/main.7434fcbe.chunk.css",
+    "static/css/main.e3cf8fa3.chunk.css",
     "static/js/main.bbdf1e9d.chunk.js"
   ]
 }
