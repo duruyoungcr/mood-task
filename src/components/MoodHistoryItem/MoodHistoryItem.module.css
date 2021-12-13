@@ -1,0 +1,18 @@
+.container {
+  @apply rounded-md bg-white-dark mb-3 min-w-full max-w-full flex items-center justify-between overflow-hidden;
+}
+.content {
+  @apply flex items-center flex-grow min-w-max pl-5 py-4;
+}
+.selection {
+  @apply rounded-full flex items-center justify-center w-14 h-14 mr-4 xs:mr-5 transition-all duration-300 ease-in-out border;
+}
+.desc {
+  @apply font-bold text-xl leading-7;
+}
+.time {
+  @apply font-bold text-xs leading-4 text-gray-dark text-left;
+}
+.img {
+  @apply object-cover max-w-full opacity-50 min-h-full hidden xs:inline-block;
+}

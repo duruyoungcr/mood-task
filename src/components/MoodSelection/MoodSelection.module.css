@@ -1,0 +1,41 @@
+.container {
+  @apply rounded-2xl w-full border border-gray-dark mb-10 lg:mb-0 px-4 py-10 xs:px-12 xs:py-20 xl:px-24 xl:py-28 mx-auto lg:mx-0 lg:text-left;
+}
+
+.content {
+  @apply text-center;
+}
+.img {
+  @apply mx-auto mb-6;
+}
+
+.heading {
+  @apply font-bold text-2xl text-gray-darkest mb-9 leading-7;
+}
+
+.selections {
+  @apply flex items-center justify-center mb-4;
+}
+.selection {
+  @apply rounded-full cursor-pointer flex items-center justify-center w-14 h-14 bg-gray-light mr-5 transition-all duration-300 ease-in-out border border-gray-light;
+}
+
+.selection:last-of-type {
+  @apply mr-0;
+}
+
+.desc {
+  @apply font-semibold text-xl h-8;
+}
+
+.btn {
+  line-height: 26px;
+  min-width: 134px;
+  @apply px-5 py-2 rounded-md text-white font-bold text-xl mt-8 xs:mt-11 transition-all duration-300 ease-in-out;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    width: 464px;
+  }
+}

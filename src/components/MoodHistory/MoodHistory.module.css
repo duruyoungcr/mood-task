@@ -1,0 +1,37 @@
+.container {
+  @apply text-center mx-auto w-full;
+}
+
+.brand {
+  @apply flex items-center justify-center mb-2;
+}
+.title {
+  @apply text-2xl font-bold leading-7 text-black ml-2.5;
+}
+.subtitle {
+  letter-spacing: 2px;
+  @apply text-center uppercase leading-7 text-gray-lightest font-semibold;
+}
+.history__list {
+  @apply mt-6;
+}
+.empty {
+  height: 264px;
+  width: 345px;
+  @apply border border-gray w-full rounded-md flex items-center justify-center mt-8 xs:mt-14 mx-auto;
+}
+.empty__img {
+  @apply mx-auto mb-4;
+}
+.empty__text {
+  @apply w-32 leading-4 font-semibold text-black-lightest;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    width: 479px;
+  }
+  .empty {
+    width: 345px;
+  }
+}

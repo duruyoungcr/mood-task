@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Nunito", sans-serif;
+  }
+}
+
+@layer utilities {
+  .excited {
+    @apply text-green hover:border-green;
+  }
+  .excited--border {
+    @apply border border-green;
+  }
+  .excited--active {
+    @apply border-green bg-green-light !important;
+  }
+  .angry {
+    @apply text-red hover:border-red;
+  }
+  .angry--border {
+    @apply border border-red;
+  }
+  .angry--active {
+    @apply border-red bg-red-light !important;
+  }
+  .indifferent {
+    @apply text-yellow hover:border-yellow;
+  }
+  .indifferent--border {
+    @apply border border-yellow;
+  }
+  .indifferent--active {
+    @apply border-yellow bg-yellow-light !important;
+  }
+}
